@@ -73,7 +73,8 @@ def get_token_price(token):
 
 
 def calc_total_bal():
-    INIT_USDT = 100.0027
+    #Your INIT balance
+    INIT_USDT = 999999
     v3_balances = get_total_balances_funding_wallet()
     v5_balances = get_total_balances_unified_wallet()
     total_balances = v3_balances + v5_balances
